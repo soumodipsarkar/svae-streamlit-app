@@ -1,0 +1,15 @@
+@"
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+.streamlit/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+Tor Browser/
+node_modules/
+"@ | Out-File -Encoding UTF8 .gitignore
